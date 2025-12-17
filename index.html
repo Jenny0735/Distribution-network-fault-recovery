@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能虚拟电厂调度平台</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="home-page">
+    <div class="container">
+        <!-- 顶部导航 -->
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-bolt"></i>
+                <span>ThermoVPP</span>
+            </div>
+            <div class="nav-links">
+                <a href=" ">关于</a >
+                <a href="#features">功能</a >
+                <a href="#contact">联系</a >
+            </div>
+        </nav>
+
+        <!-- 主标题 -->
+        <header class="hero">
+            <h1 class="title">
+                <span class="highlight">智能虚拟电厂</span><br>
+                温控负荷调度平台
+            </h1>
+            <p class="subtitle">
+                将千家万户的空调变为电网的"虚拟电池"<br>
+                故障时自动响应，保障关键供电
+            </p >
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">156.8</div>
+                    <div class="stat-label">MW聚合容量</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">92,435</div>
+                    <div class="stat-label">在线设备</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98.7%</div>
+                    <div class="stat-label">响应成功率</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- 角色选择卡片 -->
+        <section class="role-selection">
+            <h2>选择您的角色进入系统</h2>
+            <p class="section-desc">体验不同视角下的虚拟电厂运营</p >
+            
+            <div class="role-cards">
+                <!-- VPP运营商 -->
+                <div class="role-card vpp-operator">
+                    <div class="role-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>VPP调度中心</h3>
+                    <p>电网运营商视角<br>全局调度与决策</p >
+                    <div class="role-features">
+                        <span><i class="fas fa-check"></i> 实时监控</span>
+                        <span><i class="fas fa-check"></i> 智能调度</span>
+                        <span><i class="fas fa-check"></i> 效益分析</span>
+                    </div>
+                    <a href="vpp-operator.html" class="btn-enter">
+                        <i class="fas fa-sign-in-alt"></i> 进入系统
+                    </a >
+                </div>
+
+                <!-- 聚合商 -->
+                <div class="role-card aggregator">
+                    <div class="role-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>聚合商平台</h3>
+                    <p>资源管理者视角<br>用户管理与结算</p >
+                    <div class="role-features">
+                        <span><i class="fas fa-check"></i> 资源监控</span>
+                        <span><i class="fas fa-check"></i> 用户管理</span>
+                        <span><i class="fas fa-check"></i> 收益结算</span>
+                    </div>
+                    <a href="aggregator.html" class="btn-enter">
+                        <i class="fas fa-sign-in-alt"></i> 进入系统
+                    </a >
+                </div>
+
+                <!-- 终端用户 -->
+                <div class="role-card end-user">
+                    <div class="role-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>用户参与平台</h3>
+                    <p>家庭用户视角<br>参与贡献与收益</p >
+                    <div class="role-features">
+                        <span><i class="fas fa-check"></i> 温度控制</span>
+                        <span><i class="fas fa-check"></i> 收益查看</span>
+                        <span><i class="fas fa-check"></i> 社区排名</span>
+                    </div>
+                    <a href="end-user.html" class="btn-enter">
+                        <i class="fas fa-sign-in-alt"></i> 进入系统
+                    </a >
+                </div>
+            </div>
+        </section>
+
+        <!-- 工作原理 -->
+        <section class="how-it-works">
+            <h2>工作原理</h2>
+            <div class="workflow">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h4>电网故障发生</h4>
+                        <p>配电网出现紧急断电</p >
+                    </div>
+                </div>
+                <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h4>VPP接收指令</h4>
+                        <p>调度中心发出恢复需求</p >
+                    </div>
+                </div>
+                <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h4>智能调度</h4>
+                        <p>选择最优用户组合</p >
+                    </div>
+                </div>
+                <div class="arrow"><i class="fas fa-arrow-right"></i></div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h4>空调弹性调节</h4>
+                        <p>在安全范围内自动调节</p >
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-bolt"></i> ThermoVPP
+                </div>
+                <p>智能温控负荷虚拟电厂调度系统<br>科研项目演示平台</p >
+                <div class="footer-links">
+                    <a href="public-demo.html">公共演示</a >
+                    <a href="#privacy">隐私政策</a >
+                    <a href="#terms">使用条款</a >
+                    <a href="#contact">联系我们</a >
+                </div>
+                <p class="copyright">© 2024 智能电网实验室 | 演示版本 2.0</p >
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
